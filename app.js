@@ -9,12 +9,11 @@ const server = http.createServer(app);
 
 app.use(bodyParser.json());
 
-// Create a MySQL connection
 const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: 'millll1234',
-  database: 'database_development', // Change to your database name
+  database: 'database_development',
 });
 
 db.connect((err) => {
