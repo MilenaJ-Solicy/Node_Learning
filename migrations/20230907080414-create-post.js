@@ -21,7 +21,7 @@ module.exports = {
       status: {
           type: Sequelize.INTEGER,
           allowNull: false,
-          defaultValue: StatusEnum.PRIVATE,
+          defaultValue: status.PRIVATE,
       },
       userId: {
         type: Sequelize.INTEGER
