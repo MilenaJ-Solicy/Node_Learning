@@ -7,6 +7,7 @@ module.exports = {
       title: 'Life_info',
       content: 'Was born on 1995',
       userId: 1,
+      status: 1,
       createdAt: new Date(),
       updatedAt: new Date()
   }]);
